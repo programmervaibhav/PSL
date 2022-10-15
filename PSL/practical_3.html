@@ -1,0 +1,22 @@
+<html>
+    <head><title>Practical_3</title>
+    <style>
+        #btn{
+            padding: 15px;
+            position: absolute;
+            top: 40%;
+            left: 40%;
+        }
+    </style></head>
+    <body>
+        <input type="button" id="btn" value="Click Me To Change the background-color"> 
+        <script>
+            let color=["red","Green","Blue","Aqua","Yellow","black"];
+            let btn=document.getElementById('btn');
+            btn.addEventListener('click',function(){
+                let randomcolor=color[Math.floor(Math.random()*color.length)];
+                document.body.style.background=randomcolor;
+            })
+        </script>
+    </body>
+</html>

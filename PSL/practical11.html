@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Practical10</title>
+<script>
+function check() {
+var detailBox = document.myForm.detailBox.value;
+var countOfWords = detailBox.split(" ");
+var k = detailBox.split('\n');
+alert("total no of characters are : " + detailBox.length +
+"\ntotal no of words are :" + countOfWords.length + "\ntotal no of new lines are : " + k.length);
+}
+</script>
+</head>
+<body>
+<form name="myForm" onsubmit="check()">
+<textarea id="detailBox" cols="50" rows="10"></textarea><br>
+<input type="submit" value="submit">
+</form>
+</body>
+</html>

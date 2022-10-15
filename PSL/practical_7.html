@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical_7</title>
+    <style>
+        *{margin: 0;
+            padding: 0;    }
+        body{  margin: 10px ;
+            padding: 50px;                }
+                #btn{padding: 5px;
+                    background-color: #0bff9a;
+                    color: white;
+                    font-size: 18px;}
+    </style>
+</head>
+<body>
+    <form onsubmit="return markscal()" name="fr1">
+        <center><h1>Wlecome To Online Examination</h1></center> 
+<br>
+        <h3>1.CSS stands for -</h3><br>
+        <label for="">
+            <input type="radio" name="one" value="Cascade style sheets">
+            Cascade style sheets
+        </label>
+        <label for="">
+            <input type="radio" name="one" value="Color and style sheets">
+            Color and style sheets
+        </label>
+        <label for="">
+            <input type="radio" name="one" value="Cascading style sheets">
+            Cascading style sheets
+        </label>
+        <label for="">
+            <input type="radio" name="one" value="None of the above">
+            None of the above
+        </label>
+        <br><br>    
+        <h3>2. Who invented OOP?</h3><br>
+        <label for="">
+            <input type="radio" name="two" value="Andrea Ferro">
+            Andrea Ferro
+        </label>
+        <label for="">
+            <input type="radio" name="two" value="Adele Goldberg">
+            Adele Goldberg
+        </label>
+        <label for="">
+            <input type="radio" name="two" value="Alan Kay">
+            Alan Kay
+        </label>
+        <label for="">
+            <input type="radio" name="two" value="Dennis Ritchie">
+            Dennis Ritchie
+        </label>
+        <br><br> 
+        <h3>3.  The HTML attribute used to define the inline styles is -</h3><br>
+        <label for="">
+            <input type="radio" name="three" value="style">
+            style
+        </label>
+        <label for="">
+            <input type="radio" name="three" value="styles">
+            styles
+        </label>
+        <label for="">
+            <input type="radio" name="three" value="class">
+            class
+        </label>
+        <label for="">
+            <input type="radio" name="three" value="None of the above">
+            None of the above
+        </label>
+        <br><br> 
+        <h3>4. When OOP concept did first came into picture?</h3><br>
+        <label for="">
+            <input type="radio" name="four" value="1980’s" >
+            1980’s
+        </label>
+        <label for="">
+            <input type="radio" name="four" value="1995" >
+            1995
+        </label>
+        <label for="">
+            <input type="radio" name="four" value="1970’s" >
+            1970’s
+            <label for="">
+        </label>
+            <input type="radio" name="four" value="1993" >
+            1993
+        </label>
+        <br><br> 
+        <h3>5. Which feature of OOP indicates code reusability?</h3><br>
+        <label for="">
+            <input type="radio" name="five" value="Abstraction" >
+            Abstraction
+        </label>
+        <label for="">
+            <input type="radio" name="five" value="Polymorphism" >
+            Polymorphism
+        </label>
+        <label for="">
+            <input type="radio" name="five" value="Encapsulation" >
+            Encapsulation
+        </label>
+        <label for="">
+            <input type="radio" name="five" value="Inheritance" >
+            Inheritance
+        </label>
+        
+        <br><br> 
+        <h3>6. Which header file is required in C++ to use OOP?</h3><br>
+        <label for="">
+            <input type="radio" name="six" value="OOP can be used without using any header file" >
+            OOP can be used without using any header file
+        </label>
+        <label for="">
+            <input type="radio" name="six" value="stdlib.h" >
+            stdlib.h
+        </label>
+        <label for="">
+            <input type="radio" name="six" value="iostream.h" >
+            iostream.h
+        </label>
+        <label for="">
+            <input type="radio" name="six" value="stdio.h" >
+            stdio.h
+        </label>
+        <br><br> 
+        <h3>7. Why Java is Partially OOP language?</h3><br>
+        <label for="">
+            <input type="radio" name="seven" value="It allows code to be written outside classes" >
+            It allows code to be written outside classes
+        </label>
+        <label for="">
+            <input type="radio" name="seven" value="It supports usual declaration of primitive data types" >
+            It supports usual declaration of primitive data types
+        </label>
+        <label for="">
+            <input type="radio" name="seven" value="It does not support pointers" >
+            It does not support pointers
+        </label>
+        <label for="">
+            <input type="radio" name="seven" value="It doesn’t support all types of inheritance" >
+            It doesn’t support all types of inheritance
+        </label>
+        <br><br> 
+        <h3>8. Which among the following doesn’t come under OOP concept?</h3><br>
+        <label for="">
+            <input type="radio" name="eight" value="Data hiding" >
+            Data hiding
+        </label>
+        <label for="">
+            <input type="radio" name="eight" value="Message passing" >
+            Message passing
+        </label>
+        <label for="">
+            <input type="radio" name="eight" value="Platform independent" >
+            Platform independent
+        </label>
+        <label for="">
+            <input type="radio" name="eight" value="Data binding" >
+            Data binding
+        </label>
+        <br><br> 
+        <h3>9. The property in CSS used to change the background color of an element is -</h3><br>
+        <label for="">
+            <input type="radio" name="bg-color">
+            bg-color
+        </label>
+        <label for="">
+            <input type="radio" name="nine" value="color">color
+        </label>
+        <label for="">
+            <input type="radio" name="nine" value="background-color" >background-color
+        </label>
+        <label for="">
+            <input type="radio" name="nine" value="All of the above" >All of the above
+        </label>
+        <br><br> 
+        <h3>10. Which of the following property is used as the shorthand property for the padding properties?</h3><br>
+        <label for="">
+            <input type="radio" name="ten" value="padding-left" >
+            padding-left
+        </label>
+        <label for="">
+            <input type="radio" name="ten" value="padding-right" >
+            padding-right
+        </label>
+        <label for="">
+            <input type="radio" name="ten" value="padding" >
+            padding
+        </label>
+        <label for="">
+            <input type="radio" name="ten" value="All of the above" >
+All of the above        </label>
+        <center><input type="submit" name="submit" id="btn" value="submit"></center>
+    </form>
+</body>
+<script>
+    function markscal()
+    {  var i=0;
+        if (document.fr1.one[2].checked)
+        i++;
+        if (document.fr1.two[2].checked)
+        i++;
+        if (document.fr1.three[1].checked)
+        i++;
+        if (document.fr1.four[2].checked)
+        i++;
+        if (document.fr1.five[3].checked)
+        i++;
+        if (document.fr1.six[0].checked)
+        i++;
+        if (document.fr1.seven[1].checked)
+        i++;
+        if (document.fr1.eight[2].checked)
+        i++;
+        if (document.fr1.nine[2].checked)
+        i++;
+        if (document.fr1.ten[2].checked)
+        i++;
+        window.alert("Thankyou you taking Online Exam Your score is "+i);
+    }
+</script>
+</html>
